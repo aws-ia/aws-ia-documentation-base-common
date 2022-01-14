@@ -1,0 +1,1 @@
+# aws-ia-documentation-base-common
