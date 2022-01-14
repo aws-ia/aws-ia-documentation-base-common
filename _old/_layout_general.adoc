@@ -1,0 +1,18 @@
+[.text-center]
+[discrete]
+== AWS Quick Starts
+[.text-left]
+
+== Overview
+include::../{includedir}/overview.adoc[]
+
+== Planning the deployment
+include::../{includedir}/planning.adoc[]
+
+== Customer responsibility
+include::../{includedir}/customer_responsibility.adoc[]
+
+include::../{includedir}/additional_resources.adoc[]
+
+== Notices
+include::../{includedir}/notices.adoc[]

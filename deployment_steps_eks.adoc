@@ -1,0 +1,9 @@
+After clicking the *Deploy* link on the Quick Start landing page, you will be brought to the https://console.aws.amazon.com/cloudformation[CloudFormation console], with the template URL pre-populated. Ensure you are in the correct Region and click *Next* to enter parameter values.
+
+NOTE: Unless you are customizing the Quick Start templates for your own deployment projects, keep the default settings for the parameters *Quick Start S3 bucket name*, *Quick Start S3 bucket Region*, and *Quick Start S3 key prefix*. Changing these settings automatically updates code references to point to a new Quick Start location. For more information, see the https://aws-quickstart.github.io/option1.html[AWS Quick Start Contributor’s Guide^].
+
+. On the *Configure stack options* page, you can https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html[specify tags^] (key-value pairs) for resources in your stack and https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html[set advanced options^]. When you finish, choose *Next*.
+. On the *Review* page, review and confirm the template settings. Under *Capabilities*, select the two check boxes to acknowledge that the template creates IAM resources and might require the ability to automatically expand macros.
+. Choose *Create stack* to deploy the stack.
+. Monitor the status of the stack. When the status is *CREATE_COMPLETE*, the {partner-product-name} deployment is ready.
+. To view the created resources, see the values displayed in the *Outputs* tab for the stack.

@@ -1,0 +1,23 @@
+:label_documentation: documentation
+:label_spelling: grammar+or+spelling
+:label_broken_link: broken+link
+:label_inaccurate_content: inaccurate+content
+:label_display_design: display+and+design
+:issue_title: Deployment+guide+feedback
+:issue_body: Section+heading:%0ADocumentation+issue+description:%0A
+
+== Feedback
+
+For submitting any issues on the Deployment Guide Documentation, please see here:
+
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_spelling}&title={issue_title}&body={issue_body}[Grammar or spelling^]
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_broken_link}&title={issue_title}&body={issue_body}[Broken Link^]
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_inaccurate_content}&title={issue_title}&body={issue_body}[Inaccurate content^]
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_display_design}&title={issue_title}&body={issue_body}[Display and design^]
+
+
+// TODO: update for the aws-org being used in the URL's above
+// maybe that should be added to the _settings.adoc? or is this going to only be for the I&A org?
+
+//TODO: these issues could also be updated with templates for issues in the root:
+// https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository

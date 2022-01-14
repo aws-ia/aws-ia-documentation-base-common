@@ -1,0 +1,29 @@
+[.text-center]
+[discrete]
+== {partner-product-name} on the AWS Cloud
+:doctitle: {partner-product-name} on the AWS Cloud - EKS
+:!toc:
+[.text-left]
+include::../../{includedir}/introduction.adoc[]
+
+== Overview
+include::../../{guideroot}/{specificdir}/overview.adoc[]
+
+== Costs and licenses
+include::../../{guideroot}/{specificdir}/licenses.adoc[]
+
+== Architecture
+include::../../{guideroot}/{specificdir}/architecture.adoc[]
+
+== Deployment options
+include::../../{guideroot}/{specificdir}/deployment_options.adoc[]
+
+include::../../{guideroot}/{specificdir}/pre_deployment.adoc[]
+
+== Deployment steps
+include::../../{includedir}/deployment_steps_eks.adoc[]
+
+include::../../{guideroot}/{specificdir}/post_deployment.adoc[]
+
+== Troubleshooting
+include::../../{guideroot}/{specificdir}/troubleshooting.adoc[]
