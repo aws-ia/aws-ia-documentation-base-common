@@ -19,14 +19,18 @@ function build_guide_with_asciidoc_attributes(){
     set -x
 }
 
+# path to files showing which type of guide the repo has been configured to display.
 DEPLOYMENTFILE=docs/_deployment_guide.adoc
 OPERATIONALFILE=docs/_operational_guide.adoc
 MIGRATIONFILE=docs/_migration_guide.adoc
 
+# Check for deployment guide
 if test -f "$DEPLOYMENTFILE"; then
+    echo "== Generating Deployment Guide =="
+
     LAYOUT_FILE=docs/boilerplate/index_deployment_guide.adoc
     OUTPUT_FILE=index.html
-    
+
     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
         mkdir -p preview/
         OUTPUT_FILE=preview/index.html
@@ -35,8 +39,10 @@ if test -f "$DEPLOYMENTFILE"; then
     build_guide_with_asciidoc_attributes
 fi
 
-
+# Check for operations guide
 if test -f "$OPERATIONALFILE"; then
+    echo "== Generating Operations Guide =="
+
     mkdir -p operational/
     LAYOUT_FILE=docs/boilerplate/index_operational_guide.adoc
     OUTPUT_FILE=operational/index.html
@@ -49,8 +55,10 @@ if test -f "$OPERATIONALFILE"; then
     build_guide_with_asciidoc_attributes
 fi
 
-
+# Check for migration guide
 if test -f "$MIGRATIONFILE"; then
+    echo "== Generating Migration Guide =="
+
     mkdir -p migration/
     LAYOUT_FILE=docs/boilerplate/index_migration_guide.adoc
     OUTPUT_FILE=migration/index.html
