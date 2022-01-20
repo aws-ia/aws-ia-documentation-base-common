@@ -111,7 +111,7 @@ function ops_guide_setup() {
     OPERATIONAL_GUIDE_DIR="docs/operational_guide"
     SPECIFIC_DIR="docs/operational_guide/partner_editable"
     IMAGES_DIR="docs/operational_guide/images"
-    TYPE='operations'
+    TYPE='operational'
 
     # Creating directories.
     mkdir -p ${SPECIFIC_DIR}
