@@ -4,7 +4,7 @@
 
 // Do not change the URL below. The aws-quickstart-graphic.png icon needs to come from the aws-quickstart S3 bucket.
 [.text-center]
-image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-graphic.png[QS,80,80]
+image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-migration-graphic.png[QS,80,80]
 
 [.text-center]
 *{doc-month} {doc-year}* +

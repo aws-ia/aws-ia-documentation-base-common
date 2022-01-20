@@ -47,7 +47,7 @@ endif::custom_title[]
 
 // path to the layout file for the specific deployment guide type
 // this comes from the generated file 'include::../docs/OPERATIONAL_GUIDE.adoc[]' 
-include::./boilerplate/operational_{type}/_layout_operational.adoc[]
+include::./boilerplate/operational/_layout_operational.adoc[]
 
 // pull in the common feedback links for documentation
 include::{includedir}/{common}/deployment_create_issue.adoc[]

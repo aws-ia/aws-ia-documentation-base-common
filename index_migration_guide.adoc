@@ -47,7 +47,7 @@ endif::custom_title[]
 
 // path to the layout file for the specific deployment guide type
 // this comes from the generated file 'include::../docs/MIGRATION_GUIDE.adoc[]' 
-include::./boilerplate/migration_{type}/_layout_migration.adoc[]
+include::./boilerplate/migration/_layout_migration.adoc[]
 
 // pull in the common feedback links for documentation
 include::{includedir}/{common}/deployment_create_issue.adoc[]
