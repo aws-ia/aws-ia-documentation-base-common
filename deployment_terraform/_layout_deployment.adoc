@@ -7,23 +7,87 @@
 include::../../{includedir}/introduction.adoc[]
 
 == Overview
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/overview.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/overview.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
 == Costs and licenses
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/licenses.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/licenses.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
 == Architecture
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/architecture.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/architecture.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
 == Deployment options
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/deployment_options.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/deployment_options.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/pre_deployment.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/pre_deployment.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
 == Deployment steps
 include::../../{includedir}/deployment_steps_tf.adoc[]
 
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/post_deployment.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
 
 == Troubleshooting
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/troubleshooting.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/troubleshooting.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]

@@ -1,0 +1,7 @@
+== Prepare for the migration
+
+=== Prerequisites
+
+=== Discovery and Assessment
+
+=== Security and Compliance

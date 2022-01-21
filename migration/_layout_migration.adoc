@@ -7,6 +7,97 @@
 include::../../{includedir}/introduction_migration.adoc[]
 
 == Overview
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/overview.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/overview.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
 
+// Preparation
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/preparation.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/preparation.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// Deployment
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/deployment.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/deployment.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// Migration
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/migration.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/migration.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// Post Migration
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/post_migration.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/post_migration.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// FAQ
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/faq.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/faq.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// Contacts
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/contacts.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/contacts.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+// Additional Resources
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/additional_resources.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/additional_resources.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]

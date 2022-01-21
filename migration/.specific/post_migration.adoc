@@ -1,0 +1,3 @@
+// Provides partner-specific details such as monitoring/backup strategy activities, running updates, patching servers, and general administrative tasks
+
+== Post-migration considerations
