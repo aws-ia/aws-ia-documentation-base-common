@@ -6,7 +6,27 @@
 [.text-left]
 include::../../{includedir}/introduction_operational.adoc[]
 
-== Overview
-include::../../{guideroot}/{specificdir}/overview.adoc[]
 
+== Overview
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/overview.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
+include::../../{guideroot}/{specificdir}/overview.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
+
+== Overview
+ifndef::production_build[]
+_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/additional_info.adoc`**_
+[.preview_mode]
+|===
+a|
+endif::production_build[]
 include::../../{guideroot}/{specificdir}/additional_info.adoc[]
+ifndef::production_build[]
+|===
+endif::production_build[]
