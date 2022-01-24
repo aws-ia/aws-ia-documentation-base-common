@@ -11,12 +11,14 @@ set -e
 #
 #
 
-PRODUCTION_ASCIIDOC_ATTRIBUTES="-a production_build"
-export PRODUCTION_ASCIIDOC_ATTRIBUTES
+
 
 function build_guide_with_asciidoc_attributes(){
+    if test -z ${BUILD_PREVIEW_GUIDE}; then 
+        ASCIIDOC_ATTRIBUTES="-a production_build"
+    fi
     set +x
-    asciidoctor --base-dir docs/ --backend=html5 -o ../${OUTPUT_FILE} -w --doctype=book -a toc2 ${BUILD_PREVIEW_GUIDE:${PRODUCTION_ASCIIDOC_ATTRIBUTES}} ${LAYOUT_FILE}
+    asciidoctor --base-dir docs/ --backend=html5 -o ../${OUTPUT_FILE} -w --doctype=book -a toc2 ${ASCIIDOC_ATTRIBUTES} ${LAYOUT_FILE}
     set -x
 }
 
