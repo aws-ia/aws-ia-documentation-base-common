@@ -806,3 +806,11 @@ a img {
 
 .footer-text{color:rgba(255,255,255,.8);line-height:1.44;background:#1c222a;padding:1.25em;max-width:100%;margin-bottom:unset}
 p.footer-text a{color:#d7d8d8}
+
+/* This is for the 'dummy' image in the docs to help with reporting on guide views. */
+/* DO NOT MODIFY */
+.image-container img {
+  width: 1px;
+  height: 1px;
+  } 
+/* END dummy image */
