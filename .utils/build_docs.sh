@@ -12,6 +12,7 @@ set -e
 #
 
 PRODUCTION_ASCIIDOC_ATTRIBUTES="-a production_build"
+export PRODUCTION_ASCIIDOC_ATTRIBUTES
 
 function build_guide_with_asciidoc_attributes(){
     set +x
