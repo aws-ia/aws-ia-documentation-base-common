@@ -22,7 +22,7 @@ _{aws-contributors}_ +
 endif::aws-contributors[]
 ifdef::quickstart-contributors[]
 _{quickstart-contributors}_ +
-endif:quickstart-contributors[]
+endif::quickstart-contributors[]
 [.text-left]
 
 ifndef::private_repo[]
