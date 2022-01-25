@@ -19,6 +19,7 @@ function build_guide_with_asciidoc_attributes(){
     fi
     set -x
     asciidoctor --base-dir docs/ --backend=html5 -o ${OUTPUT_FILE} -w --doctype=book -a toc2 ${ASCIIDOC_ATTRIBUTES} ${LAYOUT_FILE}
+    mv docs/${OUTPUT_FILE} $(pwd)/
     set +x
 }
 
