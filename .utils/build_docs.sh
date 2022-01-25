@@ -34,10 +34,10 @@ if test -f "$DEPLOYMENTFILE"; then
     LAYOUT_FILE=docs/boilerplate/index_deployment_guide.adoc
     OUTPUT_FILE=index.html
 
-    if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
-        mkdir -p preview/
-        OUTPUT_FILE=preview/index.html
-    fi
+#     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
+#         mkdir -p preview/
+#         OUTPUT_FILE=preview/index.html
+#     fi
 
     build_guide_with_asciidoc_attributes
 fi
@@ -50,10 +50,10 @@ if test -f "$OPERATIONALFILE"; then
     LAYOUT_FILE=docs/boilerplate/index_operational_guide.adoc
     OUTPUT_FILE=operational/index.html
 
-    if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
-        mkdir -p operational/preview/
-        OUTPUT_FILE=operational/preview/index.html
-    fi
+#     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
+#         mkdir -p operational/preview/
+#         OUTPUT_FILE=operational/preview/index.html
+#     fi
 
     build_guide_with_asciidoc_attributes
 fi
@@ -66,10 +66,10 @@ if test -f "$MIGRATIONFILE"; then
     LAYOUT_FILE=docs/boilerplate/index_migration_guide.adoc
     OUTPUT_FILE=migration/index.html
 
-    if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
-        mkdir -p migration/preview/
-        OUTPUT_FILE=migration/preview/index.html
-    fi
+#     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
+#         mkdir -p migration/preview/
+#         OUTPUT_FILE=migration/preview/index.html
+#     fi
 
     build_guide_with_asciidoc_attributes
 
