@@ -5,7 +5,7 @@
 :specificdir: partner_editable
 :icons: font
 :toc2: left
-:toc-title: 
+:toc-title:
 :toclevels: 2
 :stylesheet: {includedir}/.css/ia-css.css
 
@@ -19,7 +19,7 @@ include::../docs/{guideroot}/{specificdir}/_settings.adoc[]
 // ******************************* do not change the location of the contents in this block *******************************
 // ************************************************************************************************************************
 
-// the next two lines are needed for quick starts that are not built with a partner, if removed, footer text is mangled for those quick starts. 
+// the next two lines are needed for quick starts that are not built with a partner, if removed, footer text is mangled for those quick starts.
 // They must be below _settings.adoc
 ifdef::partner-company-name[:partner-company-footer: {sp}and {partner-company-name}]
 ifndef::partner-company-name[:partner-company-footer:]
@@ -46,8 +46,11 @@ endif::custom_title[]
 :keywords: Quick Start, AWS, {partner-product-name}
 
 // path to the layout file for the specific deployment guide type
-// this comes from the generated file 'include::../docs/DEPLOYMENT_GUIDE.adoc[]' 
+// this comes from the generated file 'include::../docs/DEPLOYMENT_GUIDE.adoc[]'
 include::./boilerplate/deployment_{type}/_layout_deployment.adoc[]
+
+// pull in the customer responsibility section for documentation
+include::{includedir}/{common}/customer_responsibility.adoc[]
 
 // pull in the common feedback links for documentation
 include::{includedir}/{common}/deployment_create_issue.adoc[]
