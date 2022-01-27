@@ -19,7 +19,6 @@ ifndef::production_build[]
 |===
 endif::production_build[]
 
-== Overview
 ifndef::production_build[]
 _**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/additional_info.adoc`**_
 [.preview_mode]
