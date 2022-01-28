@@ -8,7 +8,7 @@
 :partner-contributors: John Smith, {partner-company-name}
 // :other-contributors: Akua Mansa, Trek10
 :aws-contributors: Janine Singh, AWS IoT Partner team
-:quickstart-contributors: Toni Jones, AWS Integration & Automation team
+:aws-ia-contributors: Toni Jones, AWS Integration & Automation team
 :deployment_time: 15 minutes
 :default_deployment_region: us-east-1
 // :private_repo:
