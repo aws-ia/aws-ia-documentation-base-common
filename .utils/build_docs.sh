@@ -19,7 +19,6 @@ function build_guide_with_asciidoc_attributes(){
     fi
     set -x
     asciidoctor --base-dir docs/ --backend=html5 -o ${OUTPUT_FILE} -w --doctype=book -a toc2 ${ASCIIDOC_ATTRIBUTES} ${LAYOUT_FILE}
-    mv docs/${OUTPUT_FILE} $(pwd)/
     set +x
 }
 
@@ -41,6 +40,7 @@ if test -f "$DEPLOYMENTFILE"; then
 #     fi
 
     build_guide_with_asciidoc_attributes
+    mv docs/${OUTPUT_FILE} $(pwd)/
 fi
 
 # Check for operations guide
@@ -57,6 +57,12 @@ if test -f "$OPERATIONALFILE"; then
 #     fi
 
     build_guide_with_asciidoc_attributes
+
+    if [ ! -d "$(pwd)/operational" ]; then
+        mkdir $(pwd)/operational
+    fi
+
+    mv docs/${OUTPUT_FILE} $(pwd)/operational/
 fi
 
 # Check for migration guide
@@ -73,5 +79,11 @@ if test -f "$MIGRATIONFILE"; then
 #     fi
 
     build_guide_with_asciidoc_attributes
+
+    if [ ! -d "$(pwd)/migration" ]; then
+        mkdir $(pwd)/migration
+    fi
+
+    mv docs/${OUTPUT_FILE} $(pwd)/migration/
 
 fi
