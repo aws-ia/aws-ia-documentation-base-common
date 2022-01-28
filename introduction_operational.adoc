@@ -20,9 +20,9 @@ endif::other-contributors[]
 ifdef::aws-contributors[]
 _{aws-contributors}_ +
 endif::aws-contributors[]
-ifdef::quickstart-contributors[]
-_{quickstart-contributors}_ +
-endif::quickstart-contributors[]
+ifdef::aws-ia-contributors[]
+_{aws-ia-contributors}_ +
+endif::aws-ia-contributors[]
 [.text-left]
 
 ifndef::private_repo[]
