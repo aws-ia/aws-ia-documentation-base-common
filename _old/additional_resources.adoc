@@ -1,10 +1,10 @@
-== Send us feedback
+== Feedback on this Quick Start
 
-To post feedback, submit feature ideas, or report bugs, use the Issues section of the GitHub repository for this Quick Start. To submit code, see the https://aws-quickstart.github.io/[Quick Start Contributor’s Guide].
+To post feedback, submit feature ideas, or report bugs, use the *Issues* section of the GitHub repository for this Quick Start. To submit code, see the https://aws-quickstart.github.io/[Quick Start Contributor's Guide].
 
-== Quick Start reference deployments
+== AWS Quick Start reference deployments
 
-See the https://aws.amazon.com/quickstart/[AWS Quick Start home page].
+To learn about other AWS Quick Starts, visit the https://aws.amazon.com/quickstart/[AWS Quick Starts home page].
 
 == GitHub organization
 

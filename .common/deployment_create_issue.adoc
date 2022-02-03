@@ -6,14 +6,14 @@
 :issue_title: Deployment+guide+feedback
 :issue_body: Section+heading:%0ADocumentation+issue+description:%0A
 
-== Feedback
+== Feedback on this guide
 
-For submitting any issues on the Deployment Guide Documentation, please see here:
+To comment on this guide, open a GitHub issue as follows:
 
 * https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_spelling}&title={issue_title}&body={issue_body}[Grammar or spelling^]
-* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_broken_link}&title={issue_title}&body={issue_body}[Broken Link^]
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_broken_link}&title={issue_title}&body={issue_body}[Broken link^]
 * https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_inaccurate_content}&title={issue_title}&body={issue_body}[Inaccurate content^]
-* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_display_design}&title={issue_title}&body={issue_body}[Display and design^]
+* https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_display_design}&title={issue_title}&body={issue_body}[Display or design^]
 
 
 //TODO: these issues could also be updated with templates for issues in the root:
