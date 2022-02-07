@@ -1,3 +1,6 @@
 //Include any predeployment steps here, such as signing up for a Marketplace AMI or making any changes to a Partner account. If there are none leave this file empty.
 
-== Predeployment steps
+. Clone the repository: git clone https://github.com/{quickstart-github-org}/{quickstart-project-name}
+. Navigate to the repository: cd {quickstart-project-name}
+
+//Add any additional steps that are necessary prior to deploying using terraform
