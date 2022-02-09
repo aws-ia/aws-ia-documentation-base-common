@@ -26,15 +26,15 @@ endif::aws-ia-contributors[]
 [.text-left]
 
 ifndef::private_repo[]
-TIP: Visit our https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, or post other feedback on this Quick Start. To comment on the documentation, see link:#_feedback_on_this_guide[Feedback on this guide].
+TIP: See the https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Quick Start. To comment on the documentation, see link:#_feedback_on_this_guide[Feedback].
 endif::private_repo[]
 
 ifdef::partner-company-name[]
 [.text-left]
-This Quick Start was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that use AWS CloudFormation templates to deploy key technologies on AWS, following AWS best practices.
+This Quick Start was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that use AWS CloudFormation templates to deploy key technologies on AWS that follow AWS best practices.
 endif::[]
 
 ifndef::partner-company-name[]
 [.text-left]
-This Quick Start was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that use AWS CloudFormation templates to deploy key technologies on AWS, following AWS best practices.
+This Quick Start was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that use AWS CloudFormation templates to deploy key technologies on AWS that follow AWS best practices.
 endif::[]

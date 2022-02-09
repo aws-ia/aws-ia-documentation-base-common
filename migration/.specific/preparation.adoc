@@ -2,6 +2,6 @@
 
 === Prerequisites
 
-=== Discovery and Assessment
+=== Discovery and assessment
 
-=== Security and Compliance
+=== Security and compliance
