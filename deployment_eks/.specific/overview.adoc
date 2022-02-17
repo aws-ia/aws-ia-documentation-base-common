@@ -2,4 +2,4 @@ This Quick Start deploys {partner-product-name} on the AWS Cloud. If you are unf
 
 // This deployment guide covers the steps necessary to deploy this Quick Start. For more advanced information about the product, troubleshooting, or additional functionality, see the https://{quickstart-github-org}.github.io/{quickstart-project-name}/operational/index.html[Operational guide^].
 
-// For information about using this Quick Start for migrations, see the https://{quickstart-github-org}.github.io/{quickstart-project-name}/migration/index.html[Migrational guide^].
+// For information about using this Quick Start for migrations, see the https://{quickstart-github-org}.github.io/{quickstart-project-name}/migration/index.html[Migration guide^].
