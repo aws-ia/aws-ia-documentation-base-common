@@ -41,6 +41,19 @@ if test -f "$DEPLOYMENTFILE"; then
 
     build_guide_with_asciidoc_attributes
     mv docs/${OUTPUT_FILE} $(pwd)/
+
+    if test -n ${BUILD_PREVIEW_GUIDE}; then
+        BPG=${BUILD_PREVIEW_GUIDE}
+        unset BUILD_PREVIEW_GUIDE
+
+        OUTPUT_FILE=prod_example.html
+        
+        build_guide_with_asciidoc_attributes
+        mv docs/${OUTPUT_FILE} $(pwd)/
+
+        BUILD_PREVIEW_GUIDE=${BPG}
+    fi
+
 fi
 
 # Check for operational guide
