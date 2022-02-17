@@ -1,6 +1,6 @@
 [.text-center]
 [discrete]
-== {partner-product-name} on the AWS Cloud - Operational Guide
+== {partner-product-name} on the AWS Cloud
 :doctitle: {partner-product-name} on the AWS Cloud - Operational guide
 :!toc:
 [.text-left]

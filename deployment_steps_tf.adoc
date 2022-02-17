@@ -1,7 +1,5 @@
 Run the following commands from an IDE or terminal that has Terraform installed.
 
-. Clone the repository: git clone https://github.com/{quickstart-github-org}/{quickstart-project-name}
-. Navigate to the repository: cd {quickstart-project-name}
 . Initialize the environment: `+terraform init+`
 . Verify that the deployed architecture is correct: `+terraform plan+`
 . Validate the code: `+terraform validate+`

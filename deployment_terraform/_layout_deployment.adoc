@@ -54,6 +54,7 @@ ifndef::production_build[]
 |===
 endif::production_build[]
 
+== Predeployment steps
 ifndef::production_build[]
 _**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/pre_deployment.adoc`**_
 [.preview_mode]
@@ -68,6 +69,7 @@ endif::production_build[]
 == Deployment steps
 include::../../{includedir}/deployment_steps_tf.adoc[]
 
+== Postdeployment steps
 ifndef::production_build[]
 _**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_
 [.preview_mode]
