@@ -9,22 +9,22 @@
 :toclevels: 2
 :stylesheet: {includedir}/.css/ia-css.css
 
-// get the path to the layout file {:layout:}
-// this defines the program language of the guide (CFN, CDK, TF, EKS)
+// Get the path to the layout file {:layout:}.
+// This defines the program language of the guide (CFN, CDK, TF, EKS).
 include::../docs/_deployment_guide.adoc[]
-// get the partner specific settings
+// Get the partner-specific settings.
 include::../docs/{guideroot}/{specificdir}/_settings.adoc[]
 
 // ************************************************************************************************************************
-// ******************************* do not change the location of the contents in this block *******************************
+// ******************************* Do not change the location of the contents in this block. ******************************
 // ************************************************************************************************************************
 
-// the next two lines are needed for quick starts that are not built with a partner, if removed, footer text is mangled for those quick starts.
-// They must be below _settings.adoc
+// The next two lines are required for Quick Starts that are not built with a partner. If they're removed, the footer text appears mangled.
+// They must be below _settings.adoc.
 ifdef::partner-company-name[:partner-company-footer: {sp}and {partner-company-name}]
 ifndef::partner-company-name[:partner-company-footer:]
 
-// the next 3 lines must remain below partner-company-footer definitions
+// The next three lines must remain below the partner-company footer definitions.
 // These prevent the generic footer from being added (last generated time), and add in the ./boilerplate/.common/docinfo-footer.html footer.
 :nofooter:
 :docinfodir: ./boilerplate/.common
@@ -41,19 +41,19 @@ ifdef::custom_title[]
 :title: {custom_title}
 endif::custom_title[]
 
-// HTML metadata for search engine optimization, needs to remain at the end of the file
+// HTML metadata for search-engine optimization must remain at the end of the file.
 :description: {partner-product-name} Deployment Guide on AWS
 :keywords: Quick Start, AWS, {partner-product-name}
 
-// path to the layout file for the specific deployment guide type
-// this comes from the generated file 'include::../docs/DEPLOYMENT_GUIDE.adoc[]'
+// The path to the layout file for the specific deployment guide type.
+// This comes from the generated file 'include::../docs/DEPLOYMENT_GUIDE.adoc[]'.
 include::./boilerplate/deployment_{type}/_layout_deployment.adoc[]
 
-// pull in the customer responsibility section for documentation
+// Pull in the customer-responsibility section for documentation.
 include::{includedir}/{common}/customer_responsibility.adoc[]
 
-// pull in the common feedback links for documentation
+// Pull in the common-feedback links for documentation.
 include::{includedir}/{common}/deployment_create_issue.adoc[]
 
-// pull in the common disclaimer
+// Pull in the common disclaimer.
 include::{includedir}/{common}/disclaimer-notice.adoc[]

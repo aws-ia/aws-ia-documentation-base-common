@@ -1,4 +1,4 @@
 
 == Deployment
 
-// Points to deployment guide for details
+// Points to deployment guide for details.

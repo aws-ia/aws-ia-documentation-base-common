@@ -46,11 +46,11 @@ endif::custom_title[]
 :keywords: Quick Start, AWS, {partner-product-name}
 
 // path to the layout file for the specific deployment guide type
-// this comes from the generated file 'include::../docs/MIGRATION_GUIDE.adoc[]' 
+// This comes from the generated file 'include::../docs/MIGRATION_GUIDE.adoc[]'.
 include::./boilerplate/migration/_layout_migration.adoc[]
 
-// pull in the common feedback links for documentation
+// Pull in the common feedback links for documentation.
 include::{includedir}/{common}/deployment_create_issue.adoc[]
 
-// pull in the common disclaimer
+// Pull in the common disclaimer.
 include::{includedir}/{common}/disclaimer-notice.adoc[]

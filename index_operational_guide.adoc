@@ -41,16 +41,16 @@ ifdef::custom_title[]
 :title: {custom_title}
 endif::custom_title[]
 
-// HTML metadata for search engine optimization, needs to remain at the end of the file
+// HTML metadata for search-engine optimization must remain at the end of the file.
 :description: {partner-product-name} Operational Guide on AWS
 :keywords: Quick Start, AWS, {partner-product-name}
 
-// path to the layout file for the specific deployment guide type
-// this comes from the generated file 'include::../docs/OPERATIONAL_GUIDE.adoc[]' 
+// The path to the layout file for the specific deployment guide type.
+// This comes from the generated file 'include::../docs/OPERATIONAL_GUIDE.adoc[]'.
 include::./boilerplate/operational/_layout_operational.adoc[]
 
-// pull in the common feedback links for documentation
+// Pull in the common feedback links for documentation.
 include::{includedir}/{common}/deployment_create_issue.adoc[]
 
-// pull in the common disclaimer
+// Pull in the common disclaimer.
 include::{includedir}/{common}/disclaimer-notice.adoc[]

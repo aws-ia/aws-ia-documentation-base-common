@@ -8,7 +8,7 @@ include::../../{includedir}/introduction_migration.adoc[]
 
 == Overview
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/overview.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/overview.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -20,7 +20,7 @@ endif::production_build[]
 
 // Preparation
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/preparation.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/preparation.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -32,7 +32,7 @@ endif::production_build[]
 
 // Deployment
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/deployment.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/deployment.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -44,7 +44,7 @@ endif::production_build[]
 
 // Migration
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/migration.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/migration.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -56,7 +56,7 @@ endif::production_build[]
 
 // Post Migration
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/post_migration.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/post_migration.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -68,7 +68,7 @@ endif::production_build[]
 
 // FAQ
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/faq.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/faq.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -80,7 +80,7 @@ endif::production_build[]
 
 // Contacts
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/contacts.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/contacts.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -92,7 +92,7 @@ endif::production_build[]
 
 // Additional Resources
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/additional_resources.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/additional_resources.adoc`**_
 [.preview_mode]
 |===
 a|

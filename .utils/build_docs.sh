@@ -43,9 +43,9 @@ if test -f "$DEPLOYMENTFILE"; then
     mv docs/${OUTPUT_FILE} $(pwd)/
 fi
 
-# Check for operations guide
+# Check for operational guide
 if test -f "$OPERATIONALFILE"; then
-    echo "== Generating Operations Guide =="
+    echo "== Generating Operational Guide =="
 
     mkdir -p operational/
     LAYOUT_FILE=docs/boilerplate/index_operational_guide.adoc

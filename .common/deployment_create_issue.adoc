@@ -6,9 +6,9 @@
 :issue_title: Deployment+guide+feedback
 :issue_body: Section+heading:%0ADocumentation+issue+description:%0A
 
-== Feedback on this guide
+== Feedback
 
-To comment on this guide, open a GitHub issue as follows:
+To submit feature ideas and report bugs, use the *Issues* section of the GitHub repository for this Quick Start. To submit code, see the https://aws-quickstart.github.io/[Quick Start Contributor's Guide^]. For all other feedback, use the following GitHub links:
 
 * https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_spelling}&title={issue_title}&body={issue_body}[Grammar or spelling^]
 * https://github.com/{quickstart-github-org}/{quickstart-project-name}/issues/new?labels={label_documentation},{label_broken_link}&title={issue_title}&body={issue_body}[Broken link^]

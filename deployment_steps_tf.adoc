@@ -1,4 +1,4 @@
-Run the following commands from an IDE or terminal with terraform installed.
+Run the following commands from an IDE or terminal that has Terraform installed.
 
 . Initialize the environment: `+terraform init+`
 . Verify that the deployed architecture is correct: `+terraform plan+`

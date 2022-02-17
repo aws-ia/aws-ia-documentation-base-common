@@ -1,14 +1,14 @@
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud - Terraform
+:doctitle: {partner-product-name} on the AWS Cloud — Terraform
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction.adoc[]
 
 == Overview
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/overview.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/overview.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -20,7 +20,7 @@ endif::production_build[]
 
 == Costs and licenses
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/licenses.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/licenses.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -32,7 +32,7 @@ endif::production_build[]
 
 == Architecture
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/architecture.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/architecture.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -44,7 +44,7 @@ endif::production_build[]
 
 == Deployment options
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/deployment_options.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/deployment_options.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -56,7 +56,7 @@ endif::production_build[]
 
 == Predeployment steps
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/pre_deployment.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/pre_deployment.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -71,7 +71,7 @@ include::../../{includedir}/deployment_steps_tf.adoc[]
 
 == Postdeployment steps
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_
 [.preview_mode]
 |===
 a|
@@ -84,7 +84,7 @@ endif::production_build[]
 
 == Troubleshooting
 ifndef::production_build[]
-_**This portion of the deployment guide is located at `docs/{guideroot}/{specificdir}/troubleshooting.adoc`**_
+_**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/troubleshooting.adoc`**_
 [.preview_mode]
 |===
 a|
