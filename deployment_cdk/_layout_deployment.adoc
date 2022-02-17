@@ -42,7 +42,7 @@ ifndef::production_build[]
 |===
 endif::production_build[]
 
-== Deployment options
+== Choose a deployment option
 ifndef::production_build[]
 _**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/deployment_options.adoc`**_
 [.preview_mode]
