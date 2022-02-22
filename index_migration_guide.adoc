@@ -35,7 +35,7 @@ ifndef::partner-company-name[:partner-company-footer:]
 // ************************************************************************************************************************
 
 ifndef::custom_title[]
-:title: {partner-product-name} on the AWS Cloud - Migration Guide
+:title: {partner-product-name} on the AWS Cloud—Migration Guide
 endif::custom_title[]
 ifdef::custom_title[]
 :title: {custom_title}

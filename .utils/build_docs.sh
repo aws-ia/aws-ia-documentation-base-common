@@ -65,7 +65,7 @@ if test -f "$OPERATIONALFILE"; then
     mv docs/${OUTPUT_FILE} $(pwd)/operational/
 fi
 
-# Check for migration guide
+# Check for Migration Guide
 if test -f "$MIGRATIONFILE"; then
     echo "== Generating Migration Guide =="
 

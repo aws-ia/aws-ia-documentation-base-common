@@ -123,10 +123,10 @@ function ops_guide_setup() {
 }
 
 function mig_guide_setup() {
-    # create file for referencing migration guide
+    # create file for referencing Migration Guide
     touch ./docs/_migration_guide.adoc
 
-    # Variables for migration guides
+    # Variables for Migration Guides
     MIGRATION_GUIDE_DIR="docs/migration_guide"
     SPECIFIC_DIR="docs/migration_guide/partner_editable"
     IMAGES_DIR="docs/migration_guide/images"
