@@ -16,7 +16,7 @@ NOTE: Unless you are customizing the Quick Start templates for your own projects
 
 === Deploy with Control Tower
 
-You can deploy this Quick Start in a customized AWS Control Tower environment to help you set up a secure, multi-account AWS environment using AWS best practices. For details, see Customizations for AWS Control Tower.
+You can deploy this Quick Start in a customized AWS Control Tower environment to help you set up a secure, multi-account AWS environment using AWS best practices. For details, see https://aws.amazon.com/solutions/implementations/customizations-for-aws-control-tower/[Customizations for AWS Control Tower].
 
 The root directory of the Quick Start repository includes a _ct_ folder with a _manifest.yaml_ file to assist you with the AWS Control Tower deployment. This file has been customized for the Quick Start.
 
