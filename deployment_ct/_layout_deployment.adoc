@@ -1,7 +1,7 @@
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud — Control Tower
+:doctitle: {partner-product-name} on the AWS Cloud — CFN
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction.adoc[]
@@ -68,7 +68,7 @@ endif::production_build[]
 
 
 == Deployment steps
-include::../../{includedir}/deployment_steps_cfn.adoc[]
+include::../../{includedir}/deployment_steps_ct.adoc[]
 
 ifndef::production_build[]
 _**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_

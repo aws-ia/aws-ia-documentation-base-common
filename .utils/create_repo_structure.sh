@@ -4,7 +4,7 @@
 
 #Adds Options for the following: ((Help/Second Language) (-h | -l))
 # Options for guide types: (Deployment | Operational | Migration) (-d | -o | -m)
-# Options for program language types: (CFN | CDK | Terraform | EKS) (-c | -k | -t | -e)
+# Options for program language types: (CFN | CDK | Terraform | EKS | Control Tower) (-c | -k | -t | -e | -w)
 while getopts hdomcktel  option
 do
     case "${option}" in
@@ -21,6 +21,7 @@ do
           echo "(-k)  Configure for CDK"
           echo "(-t)  Configure for Terraform"
           echo "(-e)  Configure for EKS"
+          echo "(-w)  Configure for Control Tower"
           echo "-- Other --"
           echo "(-h)  Show usage and brief help"
           echo "(-l)  Use to add files for second language for translation"
@@ -42,6 +43,8 @@ do
           PROG_LANG="tf";;
       e )
           PROG_LANG="eks";;
+      w )
+          PROG_LANG="ct";;
     # -- Other --
       l )
           CREATESECONDLANG="create_second_lang";;
@@ -79,6 +82,11 @@ function dep_guide_setup() {
             TYPE="deployment_eks"
             # Create metadata file for deployment guide
             echo ":type: eks" > "docs/_deployment_guide.adoc"
+            ;;
+        ct)
+            TYPE="deployment_ct"
+            # Create metadata file for deployment guide
+            echo ":type: ct" > "docs/_deployment_guide.adoc"
             ;;
         *)
             echo -n "deployment guide type : unknown"
