@@ -26,7 +26,7 @@ endif::aws-ia-contributors[]
 [.text-left]
 
 ifndef::private_repo[]
-TIP: See the https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Quick Start. To comment on the documentation, see link:#_feedback[Feedback].
+TIP: See the https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Quick Start. To comment on the documentation, refer to link:#_feedback[Feedback].
 endif::private_repo[]
 
 ifdef::partner-company-name[]

@@ -1,7 +1,7 @@
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud - Operational guide
+:doctitle: {partner-product-name} on the AWS Cloud—Operational Guide
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction_operational.adoc[]
