@@ -1,7 +1,7 @@
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud — EKS
+:doctitle: {partner-product-name} on the AWS Cloud for EKS
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction.adoc[]

@@ -1,6 +1,6 @@
 === Specialized knowledge
 
-Quick Start deployments require a moderate level of familiarity with AWS services. If you’re new to AWS, see https://aws.amazon.com/getting-started/[Getting Started Resource Center^] and https://aws.amazon.com/training/[AWS Training and Certification^]. These sites provide materials for learning how to design, deploy, and operate your infrastructure and applications on the AWS Cloud.
+Quick Start deployments require a moderate level of familiarity with AWS services. If you’re new to AWS, refer to https://aws.amazon.com/getting-started/[Getting Started Resource Center^] and https://aws.amazon.com/training/[AWS Training and Certification^]. These sites provide materials for learning how to design, deploy, and operate your infrastructure and applications on the AWS Cloud.
 
 === AWS account
 
@@ -8,17 +8,17 @@ If you don’t have an AWS account, create one at https://aws.amazon.com/[https:
 
 Your AWS account is automatically signed up for all AWS services. You are charged only for the services you use.
 
-==== Supported Regions
+==== Supported AWS Regions
 
 Quick Start deployments includes services which aren't necessarily supported in all https://aws.amazon.com/about-aws/global-infrastructure/[AWS Regions^]. When deploying a Quick Start, review the services that are deployed and ensure the Region in which you are deploying supports all of these services.
 
-TIP: Certain Regions are available on an opt-in basis. For more information, see https://docs.aws.amazon.com/general/latest/gr/rande-manage.html[Managing AWS Regions^].
+TIP: Certain Regions are available on an opt-in basis. For more information, refer to https://docs.aws.amazon.com/general/latest/gr/rande-manage.html[Managing AWS Regions^].
 
 ==== Amazon EC2 key pairs
 
-Some Quick Starts deploy Amazon Elastic Compute Cloud (Amazon EC2) instances. If the Quick Start you launch includes one or more EC2 instances, ensure that at least one https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[Amazon EC2 key pair^] exists in your AWS account in the Region in which you plan to deploy the Quick Start. Note the key-pair name because you will use it during deployment. To create a key pair, see https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[Amazon EC2 key pairs and Linux instances^].
+Some Quick Starts deploy Amazon Elastic Compute Cloud (Amazon EC2) instances. If the Quick Start you launch includes one or more EC2 instances, ensure that at least one https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[Amazon EC2 key pair^] exists in your AWS account in the Region in which you plan to deploy the Quick Start. Note the key-pair name because you will use it during deployment. To create a key pair, refer to https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[Amazon EC2 key pairs and Linux instances^].
 
 For testing or proof-of-concept purposes, we recommend creating a new key pair instead of using one that’s already being used by a production instance.
 
 ==== IAM permissions
-Before launching this Quick Start, you must sign in to the AWS Management Console with IAM permissions for the resources that the templates deploy. The _AdministratorAccess_ managed policy within IAM provides sufficient permissions, although your organization may choose to use a custom policy with more restrictions. For more information, see https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html[AWS managed policies for job functions^].
+Before launching this Quick Start, you must sign in to the AWS Management Console with IAM permissions for the resources that the templates deploy. The _AdministratorAccess_ managed policy within IAM provides sufficient permissions, although your organization may choose to use a custom policy with more restrictions. For more information, refer to https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html[AWS managed policies for job functions^].

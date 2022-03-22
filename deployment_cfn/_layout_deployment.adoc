@@ -1,7 +1,7 @@
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud — Control Tower
+:doctitle: {partner-product-name} on the AWS Cloud for CFN
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction.adoc[]
