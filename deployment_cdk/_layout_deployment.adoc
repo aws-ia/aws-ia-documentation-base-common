@@ -54,8 +54,6 @@ ifndef::production_build[]
 |===
 endif::production_build[]
 
-== Deployment steps
-include::../../{includedir}/deployment_steps_cdk.adoc[]
 
 ifndef::production_build[]
 _**This portion of the deployment guide is located in `docs/{guideroot}/{specificdir}/post_deployment.adoc`**_
