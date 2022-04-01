@@ -50,7 +50,7 @@ endif::custom_title[]
 include::./boilerplate/deployment_{type}/_layout_deployment.adoc[]
 
 // Pull in the customer-responsibility section for documentation.
-include::{includedir}/{common}/customer_responsibility.adoc[]
+//include::{includedir}/{common}/customer_responsibility.adoc[]
 
 // Pull in the common-feedback links for documentation.
 include::{includedir}/{common}/deployment_create_issue.adoc[]
