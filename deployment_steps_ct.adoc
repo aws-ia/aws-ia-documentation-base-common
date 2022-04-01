@@ -1,0 +1,36 @@
+=== Deploy from the CloudFormation console
+
+. Sign in to your AWS account, and launch a deployment option, as described under link:#_deployment_options[Deployment options]. The https://console.aws.amazon.com/cloudformation[AWS CloudFormation console^] opens with a prepopulated template. Each deployment option takes about {deployment_time} to complete.
+. Ensure that you are in the correct Region, and choose *Next* to enter parameter values.
+. On the *Create stack* page, keep the default setting for the template URL, and then choose *Next*.
+. On the *Specify stack details* page, change the stack name if needed. Review the parameters for the template. Provide values for the parameters that require input. For all other parameters, review the default settings and customize them as necessary. When you finish reviewing and customizing the parameters, choose *Next*.
++
+NOTE: Unless you are customizing the Quick Start templates for your own projects, don't change the default settings for the parameters *Quick Start S3 bucket name*, *Quick Start S3 bucket Region*, and *Quick Start S3 key prefix*. Changing these settings automatically updates code references to point to a new Quick Start location. For more information, see the https://aws-quickstart.github.io/option1.html[AWS Quick Start Contributor’s Guide^].
++
+. On the *Configure stack options* page, you can https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html[specify tags^] (key-value pairs) for resources in your stack and https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html[set advanced options^]. When you finish, choose *Next*.
+. On the *Review* page, review and confirm the template settings. Under *Capabilities*, select the two check boxes to acknowledge that the template creates IAM resources that might require the ability to automatically expand macros.
+. Choose *Create stack* to deploy the stack.
+. Monitor the stack's status, and when the status is *CREATE_COMPLETE*, the {partner-product-name} deployment is ready.
+. To view the created resources, choose the *Outputs* tab.
+
+
+=== Deploy with Control Tower
+
+You can deploy this Quick Start in a customized AWS Control Tower environment to help you set up a secure, multi-account AWS environment using AWS best practices. For details, see https://aws.amazon.com/solutions/implementations/customizations-for-aws-control-tower/[Customizations for AWS Control Tower].
+
+The root directory of the Quick Start repository includes a _ct_ folder with a _manifest.yaml_ file to assist you with the AWS Control Tower deployment. This file has been customized for the Quick Start.
+
+In the following sections, you will review and update the settings in this file and then upload it to the S3 bucket that is used for the deployment.
+
+==== Review the manifest file
+
+. Navigate to the root directory of the Quick Start and open the _manifest.yaml_ file, located in the _ct_ folder.
+. Confirm that the *region* attribute references the Region where AWS Control Tower is deployed. The default Region is us-east-1. You will update the regions attribute (located in the resources section) in a later step.
+. Confirm that the *resource_file* attribute points to the public S3 bucket for the Quick Start. Using a public S3 bucket ensures a consistent code base across the different deployment options. If you prefer to deploy from your own S3 bucket, update the path as needed.
+. Review each of the *parameters* attributes and update them as needed to match the requirements of your deployment.
+. Confirm that the *deployment_targets* attribute is configured for either your target accounts or organizational units (OUs).
+. For the *regions* attribute, add the Region where you plan to deploy the Quick Start. The default Region is us-east-1.
+
+==== Upload the manifest file
+. Compress the manifest.yaml file and name it custom-control-tower-configuration.zip.
+. Upload the _custom-control-tower-configuration.zip_ file to the S3 bucket that was created for the AWS Control Tower deployment (custom-control-tower-configuration-<accountnumber>-<region>). The file upload initiates the customized pipeline that deploys the Quick Start to your target accounts.
