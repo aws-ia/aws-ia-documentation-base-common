@@ -1,1 +1,4 @@
 == Troubleshooting
+
+// == Resources
+// Uncomment section and add links to any external resources that are specified by the partner.

@@ -1,1 +1,1 @@
-Each deployment option takes about {deployment_time} to complete.
+Deployment takes about {deployment_time} to complete.
