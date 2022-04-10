@@ -739,7 +739,7 @@ p {
 
 /* image layout */
 #toc.toc2 #toctitle {
-  background-image: url("images/AWS-Logo.svg");
+  background-image: url("docs/boilerplate/.images/AWS-Logo.svg");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
