@@ -61,7 +61,7 @@ BOILERPLATE_COMMON_DIR="docs/boilerplate/.common"
 
 
 # Creates Standard English directory structure to the repo.
-function dep_guide_setup() {
+dep_guide_setup() {
     case $PROG_LANG in
         cfn)
             TYPE="deployment_cfn"
@@ -111,7 +111,7 @@ function dep_guide_setup() {
 
 }
 
-function ops_guide_setup() {
+ops_guide_setup() {
     # create file for referencing operation guide
     touch ./docs/_operational_guide.adoc
 
@@ -130,7 +130,7 @@ function ops_guide_setup() {
     rsync -avP ${BOILERPLATE_DIR}/${TYPE}/.specific/ ${SPECIFIC_DIR} 
 }
 
-function mig_guide_setup() {
+mig_guide_setup() {
     # create file for referencing migration guide
     touch ./docs/_migration_guide.adoc
 

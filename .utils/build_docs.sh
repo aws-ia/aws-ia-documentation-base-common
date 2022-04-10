@@ -13,7 +13,7 @@ set -e
 
 
 
-function build_guide_with_asciidoc_attributes(){
+build_guide_with_asciidoc_attributes() {
     if test -z ${BUILD_PREVIEW_GUIDE}; then 
         ASCIIDOC_ATTRIBUTES="-a production_build"
     fi
