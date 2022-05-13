@@ -4,8 +4,8 @@ To deploy {partner-product-short-name} on AWS, complete the following steps. The
 . Install the AWS CDK.
 . Clone the {partner-product-short-name} Quick Start repository:
 ```
-git clone https://github.com/aws-quickstart/quickstart-{partner-product-name}.git
-cd quickstart-{partner-product-name}
+git clone https://github.com/{quickstart-github-org}/{quickstart-project-name}.git
+cd {quickstart-project-name}
 ```
 [start=4]
 . Build the project:
