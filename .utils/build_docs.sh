@@ -3,10 +3,10 @@ set -e
 
 # -----------
 # ${parameter:+word}
-#     If parameter is null or unset, nothing is substituted, 
+#     If parameter is null or unset, nothing is substituted,
 #       otherwise the expansion of word is substituted.
 #
-# This is used to add values to variables if ${BUILD_PREVIEW_GUIDE} is unset. 
+# This is used to add values to variables if ${BUILD_PREVIEW_GUIDE} is unset.
 # - ex: a production build.
 #
 #
@@ -14,7 +14,7 @@ set -e
 
 
 build_guide_with_asciidoc_attributes() {
-    if test -z ${BUILD_PREVIEW_GUIDE}; then 
+    if test -z ${BUILD_PREVIEW_GUIDE}; then
         ASCIIDOC_ATTRIBUTES="-a production_build"
     fi
     set -x
@@ -47,7 +47,7 @@ if test -f "$DEPLOYMENTFILE"; then
         unset BUILD_PREVIEW_GUIDE
 
         OUTPUT_FILE=prod_example.html
-        
+
         build_guide_with_asciidoc_attributes
         mv docs/${OUTPUT_FILE} $(pwd)/
 
