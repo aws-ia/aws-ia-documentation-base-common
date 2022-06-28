@@ -739,8 +739,7 @@ p {
 
 /* image layout */
 #toc.toc2 #toctitle {
-  /* Do not change! This link is intended to be broken for non-production builds. */
-  background-image: url("images/AWS-Logo.svg");
+  background-image: url("docs/boilerplate/.images/AWS-Logo.svg");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -805,6 +804,26 @@ a img {
   background:#ffffb3;
 }
 
+.watermark {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color:#00f;
+  cursor: default;
+  display: block;
+  font-size: 400px;
+  font-weight: 1000;
+  margin: 0;
+  opacity:0.05;
+  top: 30%;
+  position: fixed;
+  text-align: center;
+  transform: rotate(-30deg);
+  user-select: none;
+  z-index: -1;
+}
+
 .footer-text{color:rgba(255,255,255,.8);line-height:1.44;background:#1c222a;padding:1.25em;max-width:100%;margin-bottom:unset}
 p.footer-text a{color:#d7d8d8}
 
@@ -813,5 +832,5 @@ p.footer-text a{color:#d7d8d8}
 .image-container img {
   width: 1px;
   height: 1px;
-  } 
+  }
 /* END dummy image */

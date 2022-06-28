@@ -1,3 +1,9 @@
+// Add a watermark for non-production builds
+ifndef::production_build[]
+[.watermark]
+[discrete]
+== DRAFT
+endif::production_build[]
 [.text-center]
 [discrete]
 == {partner-product-name} on the AWS Cloud—Migration Guide
