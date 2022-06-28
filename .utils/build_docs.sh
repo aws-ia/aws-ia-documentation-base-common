@@ -18,7 +18,7 @@ build_guide_with_asciidoc_attributes() {
         ASCIIDOC_ATTRIBUTES="-a production_build"
     fi
     set -x
-    asciidoctor --base-dir docs/ --backend=html5 -o ${OUTPUT_FILE} -w --doctype=book -a toc2 ${ASCIIDOC_ATTRIBUTES} ${LAYOUT_FILE}
+    asciidoctor --base-dir docs/ --backend=html5 -o ${OUTPUT_FILE} -w --doctype=book -a toc2 -a current-year=$(date +%Y) ${ASCIIDOC_ATTRIBUTES} ${LAYOUT_FILE}
     set +x
 }
 
