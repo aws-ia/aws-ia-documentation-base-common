@@ -6,9 +6,6 @@
 [.text-center]
 image::https://aws-quickstart.s3.amazonaws.com/docs/operational-guide/aws-quickstart-operational-graphic.png[QS,80,80]
 
-[.image-container]
-image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-operational-graphic.png['']
-
 [.text-center]
 *{doc-month} {doc-year}* +
 ifdef::partner-contributors[]
@@ -24,6 +21,9 @@ ifdef::aws-ia-contributors[]
 _{aws-ia-contributors}_ +
 endif::aws-ia-contributors[]
 [.text-left]
+
+[.image-container]
+image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-operational-graphic.png['']
 
 ifndef::private_repo[]
 TIP: Visit our https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Quick Start. To comment on the documentation, refer to link:#_feedback[Feedback].
