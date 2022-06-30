@@ -31,10 +31,10 @@ endif::private_repo[]
 
 ifdef::partner-company-name[]
 [.text-left]
-This Quick Start was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices.
+This Quick Start was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Quick Starts, refer to the https://fwd.aws/rA69w?[AWS Quick Start General Information Guide^].
 endif::[]
 
 ifndef::partner-company-name[]
 [.text-left]
-This Quick Start was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices.
+This Quick Start was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Quick Starts, refer to the https://fwd.aws/rA69w?[AWS Quick Start General Information Guide^].
 endif::[]
