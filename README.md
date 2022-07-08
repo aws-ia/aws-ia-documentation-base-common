@@ -1,7 +1,3 @@
-## (ADD FULL NAME)—Quick Start
+## Docs 2.1 docs-as-code boilerplate
 
-For architectural details, step-by-step instructions, and customization options, refer to the deployment guide (ADD PERMALINK).
-
-To post feedback, submit feature ideas, and report bugs, use the **Issues** section of this GitHub repository. 
-
-To submit code for this Quick Start, refer to the [AWS Quick Start Contributor's Guide^](https://fwd.aws/NwqYA?).
+The AWS Integration and Automation team developed this project for dynamically generating [AWS Quick Start](https://aws.amazon.com/quickstart) deployment guides, operational guides, and migration guides. We've made it available to the public under the Apache 2.0 license.
