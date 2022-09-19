@@ -35,7 +35,7 @@ ifndef::partner-company-name[:partner-company-footer:]
 // ************************************************************************************************************************
 
 ifndef::custom_title[]
-:title: {partner-product-name} on the AWS Cloud
+:title: {partner-product-name} on AWS
 endif::custom_title[]
 ifdef::custom_title[]
 :title: {custom_title}
