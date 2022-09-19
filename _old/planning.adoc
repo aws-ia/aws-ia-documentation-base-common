@@ -1,4 +1,4 @@
-//This is an old doc, retained for reference only. For the latest content, refer to the AWS Quick Starts General Info Guide (https://aws-ia.github.io/content/qs_info.html).
+//This is an old file, retained for reference only. For the latest content, refer to the AWS Quick Starts General Info Guide (https://aws-ia.github.io/content/qs_info.html).
 
 === Specialized knowledge
 
