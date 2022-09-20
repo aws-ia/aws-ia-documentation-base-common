@@ -5,7 +5,7 @@
 :specificdir: partner_editable
 :icons: font
 :toc2: left
-:toc-title: 
+:toc-title:
 :toclevels: 2
 :stylesheet: {includedir}/.css/ia-css.css
 
@@ -19,7 +19,7 @@ include::../docs/{guideroot}/{specificdir}/_settings.adoc[]
 // ******************************* do not change the location of the contents in this block *******************************
 // ************************************************************************************************************************
 
-// the next two lines are needed for quick starts that are not built with a partner, if removed, footer text is mangled for those quick starts. 
+// The next two lines are needed for Quick Starts that are not built with a partner. If removed, footer text is mangled for those Quick Starts.
 // They must be below _settings.adoc
 ifdef::partner-company-name[:partner-company-footer: {sp}and {partner-company-name}]
 ifndef::partner-company-name[:partner-company-footer:]
@@ -35,7 +35,7 @@ ifndef::partner-company-name[:partner-company-footer:]
 // ************************************************************************************************************************
 
 ifndef::custom_title[]
-:title: {partner-product-name} on the AWS Cloud—Migration Guide
+:title: {partner-product-name} on AWS—Migration Guide
 endif::custom_title[]
 ifdef::custom_title[]
 :title: {custom_title}

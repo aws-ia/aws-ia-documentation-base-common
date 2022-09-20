@@ -6,8 +6,8 @@ ifndef::production_build[]
 endif::production_build[]
 [.text-center]
 [discrete]
-== {partner-product-name} on the AWS Cloud
-:doctitle: {partner-product-name} on the AWS Cloud for CDK
+== {partner-product-name} on AWS
+:doctitle: {partner-product-name} on AWS for CDK
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction.adoc[]

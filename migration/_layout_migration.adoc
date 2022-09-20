@@ -6,8 +6,8 @@ ifndef::production_build[]
 endif::production_build[]
 [.text-center]
 [discrete]
-== {partner-product-name} on the AWS Cloud—Migration Guide
-:doctitle: {partner-product-name} on the AWS Cloud—Migration Guide
+== {partner-product-name} on AWS—Migration Guide
+:doctitle: {partner-product-name} on AWS—Migration Guide
 :!toc:
 [.text-left]
 include::../../{includedir}/introduction_migration.adoc[]

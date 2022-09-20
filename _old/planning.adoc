@@ -1,6 +1,8 @@
+//This is an old file, retained for reference only. For the latest content, refer to the AWS Quick Starts General Info Guide (https://aws-ia.github.io/content/qs_info.html).
+
 === Specialized knowledge
 
-Quick Start deployments require a moderate level of familiarity with AWS services. If you're new to AWS, refer to https://aws.amazon.com/getting-started/[Getting Started Resource Center^] and https://aws.amazon.com/training/[AWS Training and Certification^]. These sites provide materials for learning how to design, deploy, and operate your infrastructure and applications on the AWS Cloud.
+Quick Start deployments require a moderate level of familiarity with AWS services. If you're new to AWS, refer to https://aws.amazon.com/getting-started/[Getting Started Resource Center^] and https://aws.amazon.com/training/[AWS Training and Certification^]. These sites provide materials for learning how to design, deploy, and operate your infrastructure and applications on AWS.
 
 === AWS account
 

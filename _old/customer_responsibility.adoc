@@ -1,1 +1,3 @@
-After you successfully deploy this Quick Start, confirm that your resources and services are updated and configured—including any required patches—to meet your security and other needs. For more information, refer to the https://aws.amazon.com/compliance/shared-responsibility-model/[AWS Shared Responsibility Model].
+//This is an old file, retained for reference only.
+
+After you deploy this Quick Start, confirm that your resources and services are updated and configured—including any required patches—to meet your security and other needs. For more information, refer to the https://aws.amazon.com/compliance/shared-responsibility-model/[AWS Shared Responsibility Model].
