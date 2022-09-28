@@ -7,6 +7,6 @@ NOTE: Unless you are customizing the Quick Start templates for your own projects
 +
 . On the *Configure stack options* page, you can https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html[specify tags^] (key-value pairs) for resources in your stack and https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html[set advanced options^]. When you finish, choose *Next*.
 . On the *Review* page, review and confirm the template settings. Under *Capabilities*, select all of the check boxes to acknowledge that the template creates AWS Identity and Access Management (IAM)  resources that might require the ability to automatically expand macros.
-. Choose *Create stack* to deploy the stack. The stack takes about {deployment_time} to launch.
+. Choose *Create stack*. The stack takes about {deployment_time} to deploy.
 . Monitor the stack's status, and when the status is *CREATE_COMPLETE*, the {partner-product-name} deployment is ready.
 . To view the created resources, choose the *Outputs* tab.
