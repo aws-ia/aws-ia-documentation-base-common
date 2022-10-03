@@ -1,6 +1,6 @@
 [.text-center]
 [discrete]
-== Quick Start Migration Guide
+== Partner Solution Migration Guide
 
 // Do not change the URL below. The aws-quickstart-graphic.png icon needs to come from the aws-quickstart S3 bucket.
 [.text-center]
@@ -26,15 +26,15 @@ endif::aws-ia-contributors[]
 image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-migration-graphic.png['']
 
 ifndef::private_repo[]
-TIP: Refer to the https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Quick Start. To comment on the documentation, refer to link:#_feedback[Feedback].
+TIP: Refer to the https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Partner Solution. To comment on the documentation, refer to link:#_feedback[Feedback].
 endif::private_repo[]
 
 ifdef::partner-company-name[]
 [.text-left]
-This Quick Start was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Quick Starts, refer to the https://fwd.aws/rA69w?[AWS Quick Start General Information Guide^].
+This Partner Solution was created by {partner-company-name} in collaboration with Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Partner Solutions^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Partner Solutions, refer to the https://fwd.aws/rA69w?[AWS Partner Solution General Information Guide^].
 endif::[]
 
 ifndef::partner-company-name[]
 [.text-left]
-This Quick Start was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Quick Starts^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Quick Starts, refer to the https://fwd.aws/rA69w?[AWS Quick Start General Information Guide^].
+This Partner Solution was created by Amazon Web Services (AWS). http://aws.amazon.com/quickstart/[Partner Solutions^] are automated reference deployments that help people deploy popular technologies on AWS according to AWS best practices. If you're unfamiliar with AWS Partner Solutions, refer to the https://fwd.aws/rA69w?[AWS Partner Solutions General Information Guide^].
 endif::[]
