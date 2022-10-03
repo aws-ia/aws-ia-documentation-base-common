@@ -1,1 +1,1 @@
-Deployment takes about {deployment_time} to complete.
+ The stack takes about {deployment_time} to deploy.
