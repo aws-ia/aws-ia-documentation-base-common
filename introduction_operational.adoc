@@ -2,7 +2,7 @@
 [discrete]
 == Partner Solution Operational Guide
 
-// Do not change the URL below. The aws-partner-solution-graphic.png icon needs to come from the aws-partner-solution S3 bucket.
+// Do not change the URL below. The aws-partner-solution-graphic.png icon needs to come from the aws-quickstart S3 bucket.
 [.text-center]
 image::https://aws-quickstart.s3.amazonaws.com/docs/operational-guide/aws-quickstart-operational-graphic.png[QS,80,80]
 
