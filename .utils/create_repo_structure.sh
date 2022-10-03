@@ -107,7 +107,7 @@ dep_guide_setup() {
     rsync -avP ${BOILERPLATE_DIR}/${TYPE}/.specific/ ${SPECIFIC_DIR} 
 
     # TODO: Possibly add a section in here that looks for the repo name and 
-    # then replaces the `:quickstart-project-name:` value in the _settings.adoc file to be the repo name
+    # then replaces the `:partner-solution-project-name:` value in the _settings.adoc file to be the repo name
 
 }
 

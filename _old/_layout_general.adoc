@@ -2,7 +2,7 @@
 
 [.text-center]
 [discrete]
-== AWS Quick Starts
+== AWS Partner Solutions
 [.text-left]
 
 == Overview
