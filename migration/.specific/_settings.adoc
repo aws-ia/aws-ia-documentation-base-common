@@ -1,5 +1,5 @@
 :partner-solution-project-name: partner-solution-repo-name
-:partner-solution-github-org: aws-partner-solution
+:partner-solution-github-org: aws-quickstart
 :partner-product-name: Full Product Name
 :partner-product-short-name: Product Name
 :partner-company-name: Example Company Name, Ltd.
