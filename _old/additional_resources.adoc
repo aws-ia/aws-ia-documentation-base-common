@@ -1,7 +1,7 @@
-== AWS Quick Start reference deployments
+== AWS Partner Solution reference deployments
 
-To learn about other AWS Quick Starts, refer to the https://aws.amazon.com/quickstart/[AWS Quick Starts home page^].
+To learn about other AWS Partner Solutions, refer to the https://aws.amazon.com/solutions/partners/[AWS Partner Solutions home page^].
 
 == GitHub organization
 
-Navigate to https://aws.amazon.com/quickstart[GitHub^] to download the templates and scripts for AWS Quick Starts, post comments, and share your customizations with others.
+Navigate to https://aws.amazon.com/quickstart[GitHub^] to download the templates and scripts for AWS Partner Solutions, post comments, and share your customizations with others.

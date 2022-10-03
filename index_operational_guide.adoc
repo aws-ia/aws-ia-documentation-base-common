@@ -19,7 +19,7 @@ include::../docs/{guideroot}/{specificdir}/_settings.adoc[]
 // ******************************* do not change the location of the contents in this block *******************************
 // ************************************************************************************************************************
 
-// The next two lines are needed for Quick Starts that are not built with a partner. If removed, footer text is mangled for those Quick Starts.
+// The next two lines are needed for Partner Solutions that are not built with a partner. If removed, footer text is mangled for those Partner Solutions.
 // They must be below _settings.adoc
 ifdef::partner-company-name[:partner-company-footer: {sp}and {partner-company-name}]
 ifndef::partner-company-name[:partner-company-footer:]
@@ -43,7 +43,7 @@ endif::custom_title[]
 
 // HTML metadata for search-engine optimization must remain at the end of the file.
 :description: {partner-product-name} Operational Guide on AWS
-:keywords: Quick Start, AWS, {partner-product-name}
+:keywords: Partner Solution, AWS, {partner-product-name}
 
 // The path to the layout file for the specific deployment guide type.
 // This comes from the generated file 'include::../docs/OPERATIONAL_GUIDE.adoc[]'.
