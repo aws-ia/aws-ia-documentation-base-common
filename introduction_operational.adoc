@@ -23,10 +23,10 @@ endif::aws-ia-contributors[]
 [.text-left]
 
 [.image-container]
-image::https://aws-quickstart.s3.amazonaws.com/{partner-solution-project-name}/docs/boilerplate/.images/aws-quickstart-operational-graphic.png['']
+image::https://aws-quickstart.s3.amazonaws.com/{quickstart-project-name}/docs/boilerplate/.images/aws-quickstart-operational-graphic.png['']
 
 ifndef::private_repo[]
-TIP: Visit our https://github.com/{partner-solution-github-org}/{partner-solution-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Partner Solution. To comment on the documentation, refer to link:#_feedback[Feedback].
+TIP: Visit our https://github.com/{quickstart-github-org}/{quickstart-project-name}[GitHub repository^] to view source files, report bugs, submit feature ideas, and post feedback about this Partner Solution. To comment on the documentation, refer to link:#_feedback[Feedback].
 endif::private_repo[]
 
 ifdef::partner-company-name[]
