@@ -61,8 +61,10 @@ if test -f "$OPERATIONALFILE"; then
     echo "== Generating Operational Guide =="
 
     mkdir -p operational/
+    mkdir -p operational/docs/boilerplate/.images/
     LAYOUT_FILE=docs/boilerplate/index_operational_guide.adoc
     OUTPUT_FILE=operational/index.html
+    cp -r docs/boilerplate/.images/aws-logo.svg operational/docs/boilerplate/.images/aws-logo.svg
 
 #     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
 #         mkdir -p operational/preview/
@@ -83,8 +85,10 @@ if test -f "$MIGRATIONFILE"; then
     echo "== Generating Migration Guide =="
 
     mkdir -p migration/
+    mkdir -p migration/docs/boilerplate/.images/
     LAYOUT_FILE=docs/boilerplate/index_migration_guide.adoc
     OUTPUT_FILE=migration/index.html
+    cp -r docs/boilerplate/.images/aws-logo.svg migration/docs/boilerplate/.images/aws-logo.svg
 
 #     if [[ "${BUILD_PREVIEW_GUIDE}" == "true" ]]; then
 #         mkdir -p migration/preview/
