@@ -1,0 +1,5 @@
+@import url("ia-css.css");
+
+#toc.toc2 #toctitle {
+  background-image: url("../docs/boilerplate/.images/AWS-Logo.svg");
+}
