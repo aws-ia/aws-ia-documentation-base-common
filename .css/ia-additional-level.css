@@ -1,5 +1,5 @@
 /* Import the main IA stylesheet */
-@import url("./ia-css.css");
+@import url("../docs/boilerplate/.css/ia-css.css");
 
 /* Modify the image location for an additional level */
 #toc.toc2 #toctitle {
