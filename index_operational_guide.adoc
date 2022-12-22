@@ -7,7 +7,7 @@
 :toc2: left
 :toc-title:
 :toclevels: 2
-:stylesheet: {includedir}/.css/ia-operational.css
+:stylesheet: {includedir}/.css/ia-additional-level.css
 
 // get the path to the layout file {:layout:}
 // this defines the program language of the guide (CFN, CDK, TF, EKS)
