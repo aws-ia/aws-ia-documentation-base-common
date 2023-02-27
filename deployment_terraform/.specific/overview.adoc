@@ -1,5 +1,1 @@
-This guide covers the information you need to deploy the {partner-product-name} Partner Solution in the AWS Cloud.
-
-// For advanced information about the product, troubleshooting, or additional functionality, refer to the https://{partner-solution-github-org}.github.io/{partner-solution-project-name}/operational/index.html[Operational Guide^].
-
-// For information about using this Partner Solution for migrations, refer to the https://{partner-solution-github-org}.github.io/{partner-solution-project-name}/migration/index.html[Migration Guide^].
+// For instructions on creating deployment instructions, refer to "Create readmes for Terraform-based Partner Solutions" (https://aws-ia-us-west-2.s3.us-west-2.amazonaws.com/docs/content/index.html#/lessons/8rpYWWL59M7dcS-NsjYmaISUu-L_UqEv).
